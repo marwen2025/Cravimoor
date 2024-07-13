@@ -10,13 +10,13 @@ const Home = () => {
       <div className=' h-4/5 flex shadow-gray-300 bg-center shadow-xl w-full bg-[image:var(--image-url)] rounded bg-cover bg-no-repeat items-center'style={{'--image-url': `url(${CarImg})`}}>
       <div className="mx-auto items-center justify-center gap-4 px-4 text-center md:px-6 lg:gap-10">
           <div className="space-y-3">
-            <div className="inline-block rounded-lg bg-black px-3 py-1 text-sm text-white">
+            <div className="inline-block text-xl rounded-lg bg-black px-3 py-1 text-white">
               Cravimoor
             </div>
-            <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+            <h1 className="text-3xl text-white font-bold tracking-tighter sm:text-4xl md:text-5xl">
               Industrial Design & 3D Modeling
             </h1>
-            <p className="mx-auto max-w-[700px] text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <p className="mx-auto max-w-[700px] text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Crafting innovative products and captivating visuals.
             </p>
           </div>
