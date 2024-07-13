@@ -2,16 +2,17 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
-        <footer class="w-full bg-red-950">
-        
-        <div class="container px-5 py-4 mx-auto">
-            <p class="text-xl text-black capitalize text-center">© 2024 All rights reserved
-            Cravimoor Games </p>
-        
-    </div>
-</footer>
-    </div>
+    <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
+        <p className="text-xs text-muted-foreground">&copy; 2024 Cravimoor. All rights reserved.</p>
+        <nav className="sm:ml-auto flex gap-4 sm:gap-6">
+          <a href="#" className="text-xs hover:underline underline-offset-4" prefetch={false}>
+            Terms of Service
+          </a>
+          <a href="#" className="text-xs hover:underline underline-offset-4" prefetch={false}>
+            Privacy
+          </a>
+        </nav>
+      </footer>
   )
 }
 

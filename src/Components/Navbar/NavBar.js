@@ -30,7 +30,7 @@ const NavBar = () => {
                             </button>
                         </ul>
                         <div onClick={handleclick} className='md:hidden z-10 hover:cursor-pointer' style={{ width: '50px' }}>
-                            {!nav ? <FaBars color='rgb(185 28 28)' size={30} /> : <FaTimes color='rgb(185 28 28)' size={30} />}
+                            {!nav ? <FaBars color='rgb(59 130 246)' size={30} /> : <FaTimes color='rgb(59 130 246)' size={30} />}
                         </div>
                         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-gray-800 to-gray-950 flex flex-col justify-center items-center'}>
                             <li className='py-5 text-blue-500 text-4xl hover: cursor-pointer'><Link onClick={handleclick} to="home" smooth={true} duration={500}>Home</Link></li>

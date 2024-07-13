@@ -4,12 +4,15 @@ import './Project.css'
 function Projects() {
     
     return (
-        <div name="projects"  className='w-full  items-center h-full h-m-screen  '>
+      <div name="projects" className='w-full lg:pt-24 items-center h-full h-m-screen '>
             <section className="imgmid w-full py-12 md:py-24 lg:py-32">
-        <div className="container grid items-center justify-center gap-4 px-4 md:px-6">
+            <div className=" items-center justify-center gap-4 px-4 md:px-6">
           <div className="space-y-3 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">Our Projects</h2>
-            <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <div className="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm">Our Work</div>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+              Showcasing Our Design Expertise
+            </h2>
+            <p className="mx-auto max-w-[700px] text-gray-700 text-center text-pretty text-lg sm:text-xl md:text-2xl">
               Explore our portfolio of past projects and see how we've helped our clients bring their ideas to life
               through innovative industrial design and captivating 3D modeling.
             </p>
@@ -18,8 +21,8 @@ function Projects() {
             <div className="rounded-lg bg-background p-6 shadow-lg">
               <img
                 src="/placeholder.svg"
-                width="400"
-                height="300"
+                width={400}
+                height={300}
                 alt="Project 1"
                 className="rounded-lg object-cover"
               />
@@ -31,8 +34,8 @@ function Projects() {
             <div className="rounded-lg bg-background p-6 shadow-lg">
               <img
                 src="/placeholder.svg"
-                width="400"
-                height="300"
+                width={400}
+                height={300}
                 alt="Project 2"
                 className="rounded-lg object-cover"
               />
@@ -44,8 +47,8 @@ function Projects() {
             <div className="rounded-lg bg-background p-6 shadow-lg">
               <img
                 src="/placeholder.svg"
-                width="400"
-                height="300"
+                width={400}
+                height={300}
                 alt="Project 3"
                 className="rounded-lg object-cover"
               />
