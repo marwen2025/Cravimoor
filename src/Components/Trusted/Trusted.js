@@ -9,10 +9,9 @@ const Trusted = () => {
             <div className="inline-block rounded-lg bg-black px-3 py-1 text-sm text-white">
               Our Trusted Clients
             </div>
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Companies We've Worked With</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Companies That Appreciate Our Work</h2>
             <p className="mx-auto max-w-[700px]text-gray-700 text-center text-pretty text-lg sm:text-xl md:text-2xl">
-              We're proud to have collaborated with some of the leading companies in various industries. Our expertise
-              and dedication have earned the trust of these respected brands.
+            We're proud to have received support from some of the leading companies in various industries. Our expertise and dedication have earned the trust of these respected brands.
             </p>
           </div>
           <div className=" py-12">
