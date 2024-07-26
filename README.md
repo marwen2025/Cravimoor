@@ -5,11 +5,11 @@ Welcome to the GitHub repository for the Cravimoor portfolio website. This site 
 # Table of Contents
 - Introduction
 - Features
--Technologies Used
--Installation
--Usage
--Contributing
--License
+- Technologies Used
+- Installation
+- Usage
+- Contributing
+- License
 # Introduction
 Cravimoor is a remote services company specializing in industrial design and 3D modeling. This website highlights our services, showcases our projects, and provides an easy way for potential clients to contact us. The site is designed to be fast, accessible, and visually appealing.
 
@@ -20,13 +20,13 @@ Portfolio Showcase: Detailed project pages with descriptions and visuals.
 Contact Form: Easy-to-use form for clients to reach out with inquiries.
 Social Media Links: Connect with us on various platforms.
 #Technologies Used
--React.js: A JavaScript library for building user interfaces.
--Tailwind CSS: A utility-first CSS framework for rapid UI development.
--Vercel: Deployment and hosting.
+- React.js: A JavaScript library for building user interfaces.
+- Tailwind CSS: A utility-first CSS framework for rapid UI development.
+- Vercel: Deployment and hosting.
 # Installation
 To run this project locally, follow these steps:
 
--Clone the repository:
+- Clone the repository:
 
 bash
 Copy code
