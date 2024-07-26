@@ -30,7 +30,7 @@ To run this project locally, follow these steps:
 
 bash
 Copy code
-git clone https://github.com/yourusername/cravimoor-portfolio.git
+git clone https://github.com/marwen2025/Cravimoor.git
 cd cravimoor-portfolio
 Install dependencies:
 
