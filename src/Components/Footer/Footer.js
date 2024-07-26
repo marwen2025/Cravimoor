@@ -11,6 +11,9 @@ const Footer = () => {
           <a href="#" className="text-xs hover:underline underline-offset-4" prefetch={false}>
             Privacy
           </a>
+          <a href="https://spicyharissa.com/" target='_blank' className="text-xs hover:underline underline-offset-4" prefetch={false}>
+            Powered By SpicyHarissa
+          </a>
         </nav>
       </footer>
   )
