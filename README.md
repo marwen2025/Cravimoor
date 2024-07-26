@@ -3,8 +3,8 @@
 Welcome to the GitHub repository for the Cravimoor portfolio website. This site showcases our expertise in industrial design and 3D modeling, featuring a modern, responsive design built with React.js and styled using Tailwind CSS.
 
 # Table of Contents
--Introduction
--Features
+- Introduction
+- Features
 -Technologies Used
 -Installation
 -Usage
