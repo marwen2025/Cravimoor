@@ -46,7 +46,7 @@ const ContactUs = () => {
                   </div>
                   <div className="flex items-center gap-2">
                     <InstagramIcon className="h-6 w-6 text-primary" />
-                    <Link href="#" className="hover:underline" prefetch={false}>
+                    <Link href="https://www.instagram.com/walidghidhawi/" target="_blank" className="hover:underline" prefetch={false}>
                       Instagram
                     </Link>
                   </div>
