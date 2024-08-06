@@ -46,19 +46,19 @@ const ContactUs = () => {
                   </div>
                   <div className="flex items-center gap-2">
                     <InstagramIcon className="h-6 w-6 text-primary" />
-                    <Link href="https://www.instagram.com/walidghidhawi/" target="_blank" className="hover:underline" prefetch={false}>
+                    <a href="https://www.instagram.com/walidghidhawi/" target="_blank" className="hover:underline" prefetch={false}>
                       Instagram
-                    </Link>
+                    </a>
                   </div>
                   <div className="flex items-center gap-2">
                     <LinkedinIcon className="h-6 w-6 text-primary" />
-                    <Link href="#" className="hover:underline" prefetch={false}>
+                    <a href="https://www.linkedin.com/in/walid-ghidhaoui-3a3120125/" target="_blank" className="hover:underline" prefetch={false}>
                       LinkedIn
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
-              <a href="https://www.linkedin.com/in/walid-ghidhaoui-3a3120125/" className=" items-center  bg-background rounded-lg shadow-lg  hover:scale-105 transition-transform duration-300">
+              <a href="https://www.linkedin.com/in/walid-ghidhaoui-3a3120125/" target="_blank" className=" items-center  bg-background rounded-lg shadow-lg  hover:scale-105 transition-transform duration-300">
               
               <img src={img} width={200} alt="dassault systemes" className="mx-auto rounded-full" />
               <div className="">
