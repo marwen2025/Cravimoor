@@ -28,7 +28,7 @@ const AboutUs = () => {
               <img
                 src={img}
                 width={500}
-                height={500}
+                height={300}
                 alt="About Cravimoor"
                 className="rounded-lg shadow-lg"
               />

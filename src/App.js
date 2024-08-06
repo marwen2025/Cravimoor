@@ -19,7 +19,7 @@ function App() {
       <Trusted/>  
       <ContactUs/>
       <Footer/> 
-      </div>    
+      </div>
     </>
   );
 }

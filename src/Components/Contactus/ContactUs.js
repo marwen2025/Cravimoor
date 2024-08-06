@@ -60,7 +60,7 @@ const ContactUs = () => {
               </div>
               <a href="https://www.linkedin.com/in/walid-ghidhaoui-3a3120125/" className=" items-center  bg-background rounded-lg shadow-lg  hover:scale-105 transition-transform duration-300">
               
-              <img src={img} width={200} alt="dassault systemes" className="mx-auto rounded-lg" />
+              <img src={img} width={200} alt="dassault systemes" className="mx-auto rounded-full" />
               <div className="">
                 <h3 className="text-lg font-semibold">Walid Ghidhaoui</h3>
                 <p className="text-muted-foreground">Founder and CEO</p>

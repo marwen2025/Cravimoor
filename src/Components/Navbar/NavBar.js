@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import logo from "./../../Images/hrissa.png";
 import { Link } from 'react-scroll';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import logo from './../../Images/007.png'
 const NavBar = () => {
     const [nav, setNav] = useState(false)
     const handleclick = () => setNav(!nav)
@@ -11,8 +11,8 @@ const NavBar = () => {
                 <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-5">
                     <div class="pl-4 flex ">
                         <a class="toggleColour items-center text-white inline-flex no-underline hover:no-underline font-bold text-3xl lg:text-4xl z-50" href="#">
-                            {/*<img width="60x" class="z-50" src={logo}></img>*/}
-                            Cravimoor
+                            <img width="150" class="z-50" src={logo}></img>
+                           
                         </a>
                     </div>
 

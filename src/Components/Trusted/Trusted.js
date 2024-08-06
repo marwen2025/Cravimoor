@@ -2,7 +2,7 @@ import React from 'react'
 import img from './../../Images/ds.png'
 const Trusted = () => {
   return (
-    <div name="services" className='w-full lg:pt-24 items-center h-full h-m-screen  bg-gray-200'>
+    <div name="services" className='w-full  items-center h-full h-m-screen  bg-gray-200'>
         <section className="w-full sm:h-screen content-center min-h-max py-12 md:py-24 lg:py-32 bg-muted">
         <div className="mx-auto items-center justify-center gap-4 px-4 md:px-6">
           <div className="space-y-3 text-center">
