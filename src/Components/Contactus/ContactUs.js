@@ -33,9 +33,9 @@ const ContactUs = () => {
                   </div>
                   <div className="flex items-center gap-2">
                     <FacebookIcon className="h-6 w-6 text-primary" />
-                    <Link href="#" className="hover:underline" prefetch={false}>
+                    <a href="https://www.facebook.com/ghidhaouiii?mibextid=ZbWKwL" target="_blank" className="hover:underline" prefetch={false}>
                       Facebook
-                    </Link>
+                    </a>
                   </div>
                   <div  className="flex items-center gap-2">
                     <TwitterIcon className="h-6 w-6 text-primary" />
