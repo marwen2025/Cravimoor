@@ -13,8 +13,7 @@ const ContactUs = () => {
             </div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Let's Discuss Your Project</h2>
             <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Fill out the form below and one of our team members will get in touch with you to discuss your project
-              requirements.
+              get in touch with us to discuss your project requirements.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="bg-background rounded-lg shadow-lg p-6 hover:scale-105 transition-transform duration-300">
@@ -30,7 +29,7 @@ const ContactUs = () => {
                   </div>
                   <div className="flex items-center gap-2">
                     <MailIcon className="h-6 w-6 text-primary" />
-                    <p>info@cravimoor.com</p>
+                    <p>walidghidhawi@gmail.com</p>
                   </div>
                   <div className="flex items-center gap-2">
                     <FacebookIcon className="h-6 w-6 text-primary" />
