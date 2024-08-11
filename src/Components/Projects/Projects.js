@@ -32,7 +32,7 @@ function Projects() {
                 alt="Project 1"
                 className="rounded-lg object-cover"
               />
-              <h3 className="mt-4 text-xl font-bold">Cravimoor Projects</h3>
+              <h3 className="mt-4 text-xl font-bold">Cravimoor Collection</h3>
               <p className="mt-2 text-muted-foreground">
               Some of our exclusive design that we collected in this video. I hope you like it
               </p>

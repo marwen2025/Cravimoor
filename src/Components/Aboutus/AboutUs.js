@@ -18,9 +18,9 @@ const AboutUs = () => {
               <p className="text-muted-foreground py-4 text-lg md:text-xl">
               At Cravimoor, we are a 100% remote services company dedicated to pushing the boundaries of industrial design and 3D modeling. With a passion for innovation and a commitment to engineering excellence, our team combines expertise and initiative to tackle every challenge head-on. We thrive on transforming bold inventions into tangible solutions, helping our clients achieve their dreams with creativity and precision. As a Crazy Vision Modeling Organization, Cravimoor is not just about designs; we are about realizing the extraordinary.
               </p>
-              <a href='https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_work-design-ingenierie-activity-7062536317527576576-I6qP?utm_source=share&utm_medium=member_android' target="_blank" className="underline text-xl text-blue-700 font-bold">
+              {/* <a href='https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_work-design-ingenierie-activity-7062536317527576576-I6qP?utm_source=share&utm_medium=member_android' target="_blank" className="underline text-xl text-blue-700 font-bold">
                 View Examples.
-              </a>
+              </a> */}
               <p className="text-muted-foreground text-lg md:text-xl mt-4">
                 Our team of experienced designers and 3D artists are dedicated to delivering exceptional results,
                 using the latest tools and technologies to ensure that every project exceeds our clients'
