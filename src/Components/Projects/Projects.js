@@ -6,12 +6,13 @@ import Project3 from './../../Images/project 3.jpg'
 import Project4 from './../../Images/project 4.jpg'
 import Project5 from './../../Images/project 5.jpg'
 import Project6 from './../../Images/project 6.jpg'
+import Collection from './../../Images/Collection.jpeg'
 
 function Projects() {
 
   return (
     <div name="projects" className='w-full lg:pt-24 items-center h-full h-m-screen '>
-      <section className="imgmid w-full py-12 md:py-24 lg:py-32">
+      <section className="imgmid w-full py-12  ">
         <div className=" items-center justify-center gap-4 px-4 md:px-6">
           <div className="space-y-3 text-center">
             <div className="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm">Our Work</div>
@@ -23,6 +24,20 @@ function Projects() {
               through innovative industrial design and captivating 3D modeling.
             </p>
           </div>
+          <div className="rounded-lg bg-background p-6 shadow-lg">
+            <a href='https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_work-design-ingenierie-activity-7062536317527576576-I6qP/?utm_source=share&utm_medium=member_android' target="_blank">
+              <img
+                src={Collection}
+                width={200}
+                alt="Project 1"
+                className="rounded-lg object-cover"
+              />
+              <h3 className="mt-4 text-xl font-bold">Cravimoor Projects</h3>
+              <p className="mt-2 text-muted-foreground">
+              Some of our exclusive design that we collected in this video. I hope you like it
+              </p>
+              </a>
+            </div>
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
             
             <div className="rounded-lg bg-background p-6 shadow-lg">
