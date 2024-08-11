@@ -38,9 +38,15 @@ const ContactUs = () => {
                     </a>
                   </div>
                   <div  className="flex items-center gap-2">
-                    <TwitterIcon className="h-6 w-6 text-primary" />
+                    <YoutubeIcon className="h-6 w-6 text-primary" />
                     <a href="https://www.youtube.com/@w_g_design" target="_blank" className="hover:underline" prefetch={false}>
                       Youtube
+                    </a>
+                  </div>
+                  <div  className="flex items-center gap-2">
+                    <TwitterIcon className="h-6 w-6 text-primary" />
+                    <a href="https://x.com/walid_ghidhaoui?t=i1CTy-mBCogvXrCaGZKVQg" target="_blank" className="hover:underline" prefetch={false}>
+                      Twitter
                     </a>
                   </div>
                   <div className="flex items-center gap-2">
@@ -146,7 +152,7 @@ function PhoneIcon(props) {
 
 
 
-function TwitterIcon(props) {
+function YoutubeIcon(props) {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width="34.14px" height="24px" viewBox="0 0 256 180"><path fill="black" d="M250.346 28.075A32.18 32.18 0 0 0 227.69 5.418C207.824 0 127.87 0 127.87 0S47.912.164 28.046 5.582A32.18 32.18 0 0 0 5.39 28.24c-6.009 35.298-8.34 89.084.165 122.97a32.18 32.18 0 0 0 22.656 22.657c19.866 5.418 99.822 5.418 99.822 5.418s79.955 0 99.82-5.418a32.18 32.18 0 0 0 22.657-22.657c6.338-35.348 8.291-89.1-.164-123.134"/><path fill="#fff" d="m102.421 128.06l66.328-38.418l-66.328-38.418z"/></svg>)
 }
@@ -217,7 +223,24 @@ function LinkedinIcon(props) {
     </svg>
   )
 }
-
+function TwitterIcon(props) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
+    </svg>
+  )
+}
 
 function TikTokIcon(props) {
   return (
