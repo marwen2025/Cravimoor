@@ -23,6 +23,9 @@ function Projects() {
               Explore our portfolio of past projects and see how we've helped our clients bring their ideas to life
               through innovative industrial design and captivating 3D modeling.
             </p>
+            <p className='mx-auto max-w-[700px] text-blue-800 text-center text-pretty text-lg sm:text-xl md:text-2xl'>
+              Click on each image to View its content
+            </p>
           </div>
           <div className="rounded-lg bg-background p-6 shadow-lg">
             <a href='https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_work-design-ingenierie-activity-7062536317527576576-I6qP/?utm_source=share&utm_medium=member_android' target="_blank">
