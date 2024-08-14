@@ -1,7 +1,4 @@
 import React from 'react';
-import { motion } from 'framer-motion';
-import { FaChevronDown } from 'react-icons/fa';
-import { Link } from 'react-scroll';
 import CarImg from './../../Images/car.jpg'
 
 const Home = () => {
