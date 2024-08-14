@@ -34,6 +34,7 @@ function Projects() {
                 width={200}
                 alt="Project 1"
                 className="rounded-lg object-cover"
+                loading="lazy"
               />
               <h3 className="mt-4 text-xl font-bold">Cravimoor Collection</h3>
               <p className="mt-2 text-muted-foreground">
@@ -51,6 +52,7 @@ function Projects() {
                 height={300}
                 alt="Project 1"
                 className="rounded-lg object-cover"
+                loading="lazy"
               />
               <h3 className="mt-4 text-xl font-bold">Cravimoor car</h3>
               <p className="mt-2 text-muted-foreground">
@@ -67,6 +69,7 @@ function Projects() {
                 height={300}
                 alt="Project 2"
                 className="rounded-lg object-cover"
+                loading="lazy"
               />
               <h3 className="mt-4 text-xl font-bold"> 3D model of a Bugatti  </h3>
               <p className="mt-2 text-muted-foreground">
@@ -82,6 +85,7 @@ function Projects() {
                 height={300}
                 alt="Project 3"
                 className="rounded-lg object-cover"
+                loading="lazy"
               />
               <h3 className="mt-4 text-xl font-bold"> Clothing Design</h3>
               <p className="mt-2 text-muted-foreground">
@@ -98,6 +102,7 @@ function Projects() {
                 height={300}
                 alt="Project 3"
                 className="rounded-lg object-cover"
+                loading="lazy"
               />
               <h3 className="mt-4 text-xl font-bold">Work-Nap Furniture</h3>
               <p className="mt-2 text-muted-foreground">
@@ -113,6 +118,7 @@ function Projects() {
                 height={300}
                 alt="Project 3"
                 className="rounded-lg object-cover"
+                loading="lazy"
               />
               <h3 className="mt-4 text-xl font-bold">8DK Damenberg</h3>
               <p className="mt-2 text-muted-foreground">
@@ -129,6 +135,7 @@ function Projects() {
                 height={300}
                 alt="Project 3"
                 className="rounded-lg object-cover"
+                loading="lazy"
               />
               <h3 className="mt-4 text-xl font-bold">Smoke Box Installation</h3>
               <p className="mt-2 text-muted-foreground">
