@@ -11,7 +11,7 @@ const NavBar = () => {
                 <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-5">
                     <div class="pl-4 flex ">
                         <a class="toggleColour items-center text-white inline-flex no-underline hover:no-underline font-bold text-3xl lg:text-4xl z-50" href="#">
-                            <img width="150" class="z-50" src={logo}></img>
+                            <img width="150" class="z-50" src={logo} loading="lazy "></img>
                            
                         </a>
                     </div>
