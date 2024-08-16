@@ -29,7 +29,7 @@ const ContactUs = () => {
                   </div>
                   <div className="flex items-center gap-2">
                     <MailIcon className="h-6 w-6 text-primary" />
-                    <a href="mailto:example@example.com" target="_blank" className="hover:underline" prefetch={false}>walidghidhawi@gmail.com</a>
+                    <a href="mailto:walidghidhawi@gmail.com" target="_blank" className="hover:underline" prefetch={false}>walidghidhawi@gmail.com</a>
                   </div>
                   <div className="flex items-center gap-2">
                     <FacebookIcon className="h-6 w-6 text-primary" />
