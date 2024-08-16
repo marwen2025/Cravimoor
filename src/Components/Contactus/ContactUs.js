@@ -25,7 +25,7 @@ const ContactUs = () => {
                   </div>
                   <div className="flex items-center gap-2">
                     <PhoneIcon className="h-6 w-6 text-primary" />
-                    <a href='href="tel:+21696307800' className="hover:underline" prefetch={false} > +216 96 30 78 00</a>
+                    <a href="tel:+21696307800" className="hover:underline" prefetch={false} > +216 96 30 78 00</a>
                   </div>
                   <div className="flex items-center gap-2">
                     <MailIcon className="h-6 w-6 text-primary" />
