@@ -18,26 +18,26 @@ const NavBar = () => {
 
                     <div class=" flex items-center w-auto   mt-0 bg-transparent text-black  p-0 z-20" id="nav-content">
                         <ul class="list-reset lg:flex justify-end flex-1 items-center hidden xs:visible">
-                        <a href="#" class="text-gray-500  hover:bg-blue-500 hover:text-white rounded-md px-3 py-2 text-lg font-bold"><Link to="home" smooth={true} duration={500}>Home</Link></a>
-                            <a href="#" class="text-gray-500 hover:bg-blue-500 hover:text-white rounded-md px-3 py-2 text-lg font-bold"><Link to="aboutus" smooth={true} duration={500}>About</Link></a>
-                            <a href="#" class="text-gray-500 hover:bg-blue-500 hover:text-white rounded-md px-3 py-2 text-lg font-bold"><Link to="services" smooth={true} duration={500}>Services</Link></a>
-                            <a href="#" class="text-gray-500 hover:bg-blue-500 hover:text-white rounded-md px-3 py-2 text-lg font-bold"><Link to="projects" smooth={true} duration={500}>Projects</Link></a>
+                            <a href="#" class="text-gray-500 hover:bg-gray-500 hover:text-white rounded-md px-3 py-2 text-lg font-bold"><Link to="home" smooth={true} duration={500}>Home</Link></a>
+                            <a href="#" class="text-gray-500 hover:bg-gray-500 hover:text-white rounded-md px-3 py-2 text-lg font-bold"><Link to="aboutus" smooth={true} duration={500}>About</Link></a>
+                            <a href="#" class="text-gray-500 hover:bg-gray-500 hover:text-white rounded-md px-3 py-2 text-lg font-bold"><Link to="services" smooth={true} duration={500}>Services</Link></a>
+                            <a href="#" class="text-gray-500 hover:bg-gray-500 hover:text-white rounded-md px-3 py-2 text-lg font-bold"><Link to="projects" smooth={true} duration={500}>Projects</Link></a>
                             <button
                                 id="navAction"
-                                class="mx-auto lg:mx-0 hover:underline bg-blue-500 text-gray-200 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-90 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+                                class="mx-auto lg:mx-0 hover:underline bg-gray-500 text-gray-200 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-90 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
                             >
                                 <Link to="contactus" smooth={true} duration={500}>Contact Us</Link>
                             </button>
                         </ul>
                         <div onClick={handleclick} className='md:hidden z-10 hover:cursor-pointer' style={{ width: '50px' }}>
-                            {!nav ? <FaBars color='rgb(59 130 246)' size={30} /> : <FaTimes color='rgb(59 130 246)' size={30} />}
+                            {!nav ? <FaBars color='rgb(107 114 128)' size={40} /> : <FaTimes color='rgb(107 114 128)' size={40} />}
                         </div>
                         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-gray-800 to-gray-950 flex flex-col justify-center items-center'}>
-                            <li className='py-5 text-blue-500 text-4xl hover: cursor-pointer'><Link onClick={handleclick} to="home" smooth={true} duration={500}>Home</Link></li>
-                            <li className='py-5 text-blue-500 text-4xl hover: cursor-pointer'><Link onClick={handleclick} to="aboutus" smooth={true} duration={500}>About</Link></li>
-                            <li className='py-5 text-blue-500 text-4xl hover: cursor-pointer'><Link onClick={handleclick} to="services" smooth={true} duration={500}>Services</Link></li>
-                            <li className='py-5 text-blue-500 text-4xl hover: cursor-pointer'><Link onClick={handleclick} to="projects" smooth={true} duration={500}>Projects</Link></li>
-                            <li className='py-5 text-blue-500 text-4xl hover: cursor-pointer'><Link onClick={handleclick} to="contactus" smooth={true} duration={500}>Contact Us</Link></li>
+                            <li className='py-5 text-gray-500 text-4xl hover: cursor-pointer'><Link onClick={handleclick} to="home" smooth={true} duration={500}>Home</Link></li>
+                            <li className='py-5 text-gray-500 text-4xl hover: cursor-pointer'><Link onClick={handleclick} to="aboutus" smooth={true} duration={500}>About</Link></li>
+                            <li className='py-5 text-gray-500 text-4xl hover: cursor-pointer'><Link onClick={handleclick} to="services" smooth={true} duration={500}>Services</Link></li>
+                            <li className='py-5 text-gray-500 text-4xl hover: cursor-pointer'><Link onClick={handleclick} to="projects" smooth={true} duration={500}>Projects</Link></li>
+                            <li className='py-5 text-gray-500 text-4xl hover: cursor-pointer'><Link onClick={handleclick} to="contactus" smooth={true} duration={500}>Contact Us</Link></li>
                         </ul>
 
                     </div>
